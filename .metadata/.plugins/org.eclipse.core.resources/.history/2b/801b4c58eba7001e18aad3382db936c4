@@ -1,0 +1,7 @@
+package S01;
+
+public class aj01 {
+	public static void main(String[] args) {	
+		System.out.println("Rodolfo Aravena");		
+	}
+}
