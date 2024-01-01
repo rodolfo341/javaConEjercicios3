@@ -2,8 +2,6 @@ package S04;
 
 import java.util.Scanner;
 
-
-
 /**
  * 
  * Realiza un programa que resuelva una ecuación de segundo grado 
@@ -12,15 +10,11 @@ import java.util.Scanner;
  * @author Rodolfo Aravena
  * 
  */
-
 public class ej09 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		double a = 0;
-		double b = 0;
-		double c = 0;
-		double discriminante;
+		double a,b,c;
 							
 		do {
 		
@@ -54,14 +48,13 @@ public class ej09 {
 			}
 			// ax^2 + bx + c = 0 con a, b y c distintos de 0
 			if ((a != 0) && (b != 0) && (c != 0)) {
-				discriminante = b*b - (4 * a * c);
-				if (discriminante < 0) {
-					System.out.println("La ecuación no tiene soluciones reales");
-				} else {
-					System.out.println("x1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
-					System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
-				}
-			}
+				double discriminante = b*b - (4 * a * c);
+			if (discriminante < 0) {
+				System.out.println("La ecuación no tiene soluciones reales");
+			} else {
+				System.out.println("x1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
+				System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
+			}			
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
