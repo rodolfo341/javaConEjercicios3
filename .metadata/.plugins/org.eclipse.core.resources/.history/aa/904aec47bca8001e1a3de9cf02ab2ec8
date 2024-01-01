@@ -18,9 +18,9 @@ public class ej08 {
 		double a, b, c, media;
 		
 		do {
-			do { System.out.println("a: "); a = sc.nextDouble(); } while ( a < 1.0 || a > 7.0 );
-			do { System.out.println("b: "); b = sc.nextDouble(); } while ( b < 1.0 || b > 7.0 );
-			do { System.out.println("c: "); c = sc.nextDouble(); } while ( c < 1.0 || c > 7.0 );
+			do { System.out.println("a: "); a = sc.nextDouble(); } while ( a < 1.0 && a > 7.0 );
+			do { System.out.println("b: "); b = sc.nextDouble(); } while ( b < 1.0 && b > 7.0 );
+			do { System.out.println("c: "); c = sc.nextDouble(); } while ( c < 1.0 && c > 7.0 );
 			
 			media = (a + b + c) / 3;
 			
