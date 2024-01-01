@@ -1,7 +1,16 @@
 package S04;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * 4. Sentencia Condicional
+ *
+ * 11. Escribe un programa que dada una hora determinada (horas y minutos),
+ * calcule los segundos que faltan para llegar a la medianoche.
+ *
+ * @author Rodolfo Aravena
+ * 
+ */
 public class ej11 {
 
 	public static void main(String[] args) {

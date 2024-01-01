@@ -1,19 +1,8 @@
-
-
 package S04;
 
 import java.util.Scanner;
-/**
- * 
- * 4. Sentencia Condicional
- *
- * 13. Escribe un programa que ordene tres números enteros introducidos por teclado.
- *
- * @author Rodolfo Aravena
- * 
- */
 
-public class ej13 {
+public class ej14 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -25,7 +14,6 @@ public class ej13 {
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
-
 	}
 
 }
