@@ -36,7 +36,9 @@ public class ej12 {
      		System.out.println("c) Vancouver");
 			System.out.println("d) Montreal");
 			res1 = sc.next().charAt(0);
-			if ( res1 == 'b') puntaje++;
+			if ( res1 == 'b') {
+				puntaje++;
+			}
 			
 			System.out.println("¿Quién escribió la obra \"Don Quijote de la Mancha\"?");
 			System.out.println("a) William Shakespeare");
@@ -44,7 +46,9 @@ public class ej12 {
 			System.out.println("c) Federico García Lorca");
 			System.out.println("d) Gabriel García Márquez");
 			res2 = sc.next().charAt(0);
-			if ( res1 == 'b') puntaje++;
+			if ( res1 == 'b') {
+				puntaje++;
+			}
 			
 			System.out.println("¿Cuál es el océano más grande del mundo?");
 			System.out.println("a) Océano Atlántico");
@@ -52,7 +56,9 @@ public class ej12 {
 			System.out.println("c) Océano Ártico");
 			System.out.println("d) Océano Pacífico");
 			res3 = sc.next().charAt(0);
-			if ( res1 == 'b') puntaje++;
+			if ( res1 == 'b') {
+				puntaje++;
+			}
 			
 			System.out.println("Puntaje : " + puntaje);
 			
