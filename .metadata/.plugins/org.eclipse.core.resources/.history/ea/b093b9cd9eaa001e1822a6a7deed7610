@@ -19,35 +19,31 @@ public class ej13 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		int a,b,c;
-		int t;
 		int primero;
 		int segundo;
 		int tercero;
 											
 		do {
-			System.out.print("a: "); a = sc.nextInt();
-	        System.out.print("b: ");b = sc.nextInt();
-	        System.out.print("c: "); c = sc.nextInt();
-	        
-	        if (a > b) {
-	            t = a;
-	            a = b;
-	            b = t;
-	        }
-
-	        if (b > c) {
-	            t = b;
-	            b = c;
-	            c = t;
-	        }
-
-	        if (a > b) {
-	            t = a;
-	            a = b;
-	            b = t;
-	        }
+			System.out.println("a: "); a = sc.nextInt();
+			System.out.println("b: "); b = sc.nextInt();
+			System.out.println("c: "); c = sc.nextInt();
 			
-	        System.out.println("Números ordenados: " + a + " " + b + " " + c);
+			if (a > b && a > c) primero = a;
+			if (b > a && b > c) primero = b;
+			if (c > a && c > b) primero = c;
+			
+			if (a > b && a > c) segundo = a;
+			if (b > a && b > c) segundo = b;
+			if (c > a && c > b) segundo = c;
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
