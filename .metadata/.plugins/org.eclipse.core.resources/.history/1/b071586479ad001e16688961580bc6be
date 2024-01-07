@@ -10,18 +10,14 @@ import java.util.Scanner;
  *
  * @author Rodolfo Aravena
  * 
- */ 
+ */
 public class ej14 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int num;
 								
 		do {
-			System.out.println(); num = sc.nextInt();
-			if ( num % 5 == 0 ) System.out.println("es divisible por 5");
-			else System.out.println("no es divisible por 5");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
