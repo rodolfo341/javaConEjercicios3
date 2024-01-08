@@ -30,32 +30,38 @@ public class ej15 {
 			System.out.println("\n\t2) ->");
 			System.out.println("\n\t3) \\/");
 			System.out.println("\n\t4) <-");
+			do {
+				direccion = sc.nextInt();				
+			} while ( direccion < 1 || direccion > 4 );
 			
-			direccion = sc.nextInt();
-			
-			System.out.println("       "+c+"        ");
-			System.out.println("      "+c+" "+c+"   ");
-			System.out.println("     "+c+"   "+c+"  ");
-			System.out.println("    "+c+"     "+c+" ");
-			System.out.println("   "+c+" "+c+" "+c+" "+c+" "+c+"");
-			
-			System.out.println("   "+c+"             ");
-			System.out.println("   "+c+"  "+c+"      ");
-			System.out.println("   "+c+"    "+c+"    ");
-			System.out.println("   "+c+"  "+c+"      ");
-			System.out.println("   "+c+"             ");
-			
-			System.out.println("   "+c+" "+c+" "+c+" "+c+" "+c+"");
-			System.out.println("    "+c+"     "+c+" ");
-			System.out.println("     "+c+"   "+c+"  ");
-			System.out.println("      "+c+" "+c+"   ");
-			System.out.println("       "+c+"        ");
-			
-			System.out.println("        "+c+"       ");
-			System.out.println("     "+c+"  "+c+"   ");
-			System.out.println("   "+c+"    "+c+"   ");
-			System.out.println("     "+c+"  "+c+"   ");
-			System.out.println("        "+c+"       ");
+			if( direccion == 1 ) {
+				System.out.println("       "+c+"        ");
+				System.out.println("      "+c+" "+c+"   ");
+				System.out.println("     "+c+"   "+c+"  ");
+				System.out.println("    "+c+"     "+c+" ");
+				System.out.println("   "+c+" "+c+" "+c+" "+c+" "+c+"");				
+			}
+			else if( direccion == 2 ) {
+				System.out.println("   "+c+"             ");
+				System.out.println("   "+c+"  "+c+"      ");
+				System.out.println("   "+c+"    "+c+"    ");
+				System.out.println("   "+c+"  "+c+"      ");
+				System.out.println("   "+c+"             ");				
+			}
+			else if( direccion == 3 ) {
+				System.out.println("   "+c+" "+c+" "+c+" "+c+" "+c+"");
+				System.out.println("    "+c+"     "+c+" ");
+				System.out.println("     "+c+"   "+c+"  ");
+				System.out.println("      "+c+" "+c+"   ");
+				System.out.println("       "+c+"        ");				
+			}
+			else {
+				System.out.println("        "+c+"       ");
+				System.out.println("     "+c+"  "+c+"   ");
+				System.out.println("   "+c+"    "+c+"   ");
+				System.out.println("     "+c+"  "+c+"   ");
+				System.out.println("        "+c+"       ");				
+			}
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
