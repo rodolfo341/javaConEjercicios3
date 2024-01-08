@@ -20,18 +20,9 @@ public class ej15 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		char c;
-		int direccion;
-		
+		char c;					
 		do {
-			System.out.print("caract? "); c = sc.next().charAt(0);
-			System.out.println("Donde apuntará la pirámide?");
-			System.out.println("\n\t1) /\\"); 			
-			System.out.println("\n\t2) ->");
-			System.out.println("\n\t3) \\/");
-			System.out.println("\n\t4) <-");
-			
-			direccion = sc.nextInt();
+			System.out.println("caract? "); c = sc.next().charAt(0);
 			
 			System.out.println("       "+c+"        ");
 			System.out.println("      "+c+" "+c+"   ");
