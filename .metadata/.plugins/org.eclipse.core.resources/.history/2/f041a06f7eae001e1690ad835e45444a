@@ -14,15 +14,9 @@ public class ej17 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int num;
 		
 		do {
-			System.out.println("num: "); num = sc.nextInt();
-			
-			num %= 10; 
-			
-			System.out.println("ultima cifra: " + num);
-			 
+				
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');

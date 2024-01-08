@@ -18,9 +18,9 @@ public class ej17 {
 		
 		do {
 			System.out.println("num: "); num = sc.nextInt();
-			
-			num %= 10; 
-			
+			while ( num >= 10 ) {
+				num /= 10;
+			}
 			System.out.println("ultima cifra: " + num);
 			 
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
