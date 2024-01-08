@@ -20,8 +20,37 @@ public class ej15 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		char car;					
+		char caracter;					
 		do {
+			System.out.println("caract? "); caracter = sc.next().charAt(0);
+			
+			System.out.println("       *    ");
+			System.out.println("      * *   ");
+			System.out.println("     *   *  ");
+			System.out.println("    *     * ");
+			System.out.println("   * * * * *");
+			
+			System.out.println("   *         ");
+			System.out.println("   *  *      ");
+			System.out.println("   *    *    ");
+			System.out.println("   *  *      ");
+			System.out.println("   *         ");
+			
+			System.out.println("   * * * * *");
+			System.out.println("    *     * ");
+			System.out.println("     *   *  ");
+			System.out.println("      * *   ");
+			System.out.println("       *    ");
+			
+			System.out.println("        *   ");
+			System.out.println("     *  *   ");
+			System.out.println("   *    *   ");
+			System.out.println("     *  *   ");
+			System.out.println("        *   ");
+			
+			
+			
+			
 			
 			
 			
