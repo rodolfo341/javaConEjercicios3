@@ -34,28 +34,27 @@ public class ej16 {
 			do { 
 				System.out.println("(v)erdadero o (f)also"); 
 				opcion = sc.next().charAt(0);	
-				if (opcion == 'V' || opcion == 'v') verdadero++;		
+				if (opcion == 'V') verdadero++;		
 			} while ( Character.toUpperCase(opcion) != 'V' && Character.toUpperCase(opcion) != 'F' );
 			
 			System.out.println("2. Ha aumentado sus gastos de vestuario.");
 			do { 
 				System.out.println("(v)erdadero o (f)also"); 
 				opcion = sc.next().charAt(0);	
-				if (opcion == 'V' || opcion == 'v') verdadero++;
+				if (opcion == 'V') verdadero++;
 			} while ( Character.toUpperCase(opcion) != 'V' && Character.toUpperCase(opcion) != 'F' );
 			
 			System.out.println("3. Ha perdido el interés que mostraba anteriormente por ti.");
 			do { 
 				System.out.println("(v)erdadero o (f)also"); 
 				opcion = sc.next().charAt(0);	
-				if (opcion == 'V' || opcion == 'v') verdadero++;
+				if (opcion == 'V') verdadero++;
 			} while ( Character.toUpperCase(opcion) != 'V' && Character.toUpperCase(opcion) != 'F' );			
 			
 			if ( verdadero == 3 ) System.out.println("porcentaje de que te sea infiel es del 100%");
 			else if ( verdadero == 2 ) System.out.println("porcentaje de que te sea infiel es del 66%");
 			else if ( verdadero == 1 ) System.out.println("porcentaje de que te sea infiel es del 33%");
 			else System.out.println("porcentaje de que te sea infiel es del 00%");
-			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');

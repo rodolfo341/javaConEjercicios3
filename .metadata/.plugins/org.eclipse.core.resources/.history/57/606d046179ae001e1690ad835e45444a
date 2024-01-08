@@ -55,7 +55,6 @@ public class ej16 {
 			else if ( verdadero == 2 ) System.out.println("porcentaje de que te sea infiel es del 66%");
 			else if ( verdadero == 1 ) System.out.println("porcentaje de que te sea infiel es del 33%");
 			else System.out.println("porcentaje de que te sea infiel es del 00%");
-			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
