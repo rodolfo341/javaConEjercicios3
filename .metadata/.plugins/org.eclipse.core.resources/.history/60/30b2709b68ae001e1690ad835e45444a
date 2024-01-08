@@ -2,8 +2,9 @@ package S04;
 
 import java.util.Scanner;
 /**
+ * 4. Sentencia Condicional
  *
- * Realiza un programa que nos diga si hay probabilidad de que nuestra pareja nos está siendo infiel. 
+ * 16. Realiza un programa que nos diga si hay probabilidad de que nuestra pareja nos está siendo infiel. 
  * El programa irá haciendo preguntas que el usuario contestará con una 
  * v (verdadero)
  * f (falso). 
@@ -22,13 +23,7 @@ public class ej16 {
 		char res;
 		
 		do {
-			System.out.println("Test de infidelidade");
-			
-			System.out.println("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aprarente.");
-			System.out.println("(v)erdadero o (f)also");
-			
-			
-			
+				
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
