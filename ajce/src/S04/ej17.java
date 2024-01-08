@@ -1,7 +1,14 @@
 package S04;
 
 import java.util.Scanner;
-
+/**
+ * 4. Sentencia Condicional
+ *
+ * 17. Escribe un programa que diga cuál es la última cifra de un número
+ * entero introducido por teclado.
+ *
+ * @author Rodolfo Aravena
+ */
 public class ej17 {
 
 	public static void main(String[] args) {

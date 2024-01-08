@@ -1,15 +1,8 @@
 package S04;
 
 import java.util.Scanner;
-/**
- * 4. Sentencia Condicional
- * 
- * 18. Escribe un programa que diga cuál es la primera cifra de un número
- * entero introducido por teclado. Se permiten números de hasta 5 cifras.
- *
- * @author Rodolfo Aravena
- */
-public class ej18 {
+
+public class ej17 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
