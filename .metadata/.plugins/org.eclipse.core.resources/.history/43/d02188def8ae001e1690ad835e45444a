@@ -1,17 +1,8 @@
 package S04;
 
 import java.util.Scanner;
-/**
- * Aprende Java con Ejercicios
- * https://leanpub.com/aprendejava
- *
- * Capítulo 4. Sentencia condicional.
- *
- * Ejercicio 25
- *
- * @author Rodolfo Aravena
- */
-public class ej25 {
+
+public class ej21 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -25,7 +16,6 @@ public class ej25 {
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
-
 	}
 
 }
