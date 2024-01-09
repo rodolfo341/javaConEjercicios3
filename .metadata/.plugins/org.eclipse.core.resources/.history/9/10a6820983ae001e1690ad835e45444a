@@ -14,13 +14,10 @@ public class ej18 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int num;
+		char num;
 				
 		do {
-			System.out.println("numero: "); num = sc.nextInt();
-			while ( num >= 10 ) {
-				num /= 10;
-			}
+			System.out.println("numero: "); num = sc.next().charAt(0);
 			System.out.println("la primera cifra es: " + num);
 			
 			
