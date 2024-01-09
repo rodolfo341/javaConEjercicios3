@@ -2,8 +2,7 @@ package S04;
 
 import java.util.Scanner;
 /**
- * Aprende Java con Ejercicios
- * https://leanpub.com/aprendejava
+
  *
  * Capítulo 4. Sentencia condicional.
  *
