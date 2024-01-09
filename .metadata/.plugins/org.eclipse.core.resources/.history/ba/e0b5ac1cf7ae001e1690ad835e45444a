@@ -19,7 +19,10 @@ public class ej13 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		int a,b,c;
-		int t;	
+		int t;
+		int primero;
+		int segundo;
+		int tercero;
 											
 		do {
 			System.out.print("a: "); a = sc.nextInt();

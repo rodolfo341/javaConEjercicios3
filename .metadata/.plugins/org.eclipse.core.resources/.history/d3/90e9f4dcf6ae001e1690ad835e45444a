@@ -21,10 +21,12 @@ public class ej16 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		char opcion;
-		int verdadero;		
+		int verdadero;
+		int falso;
 		
 		do {
-			verdadero = 0;			
+			verdadero = 0;
+			falso = 0;
 			opcion = 'n';
 			System.out.println("Test de infidelidade");
 			
