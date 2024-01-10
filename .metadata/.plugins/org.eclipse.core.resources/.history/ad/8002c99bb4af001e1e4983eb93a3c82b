@@ -43,16 +43,13 @@ public class ej21 {
 			do { System.out.println("nota 1: "); nota1 = sc.nextDouble(); } while (nota1 < 1.0 || nota1 > 7.0);
 			do { System.out.println("nota 2: "); nota2 = sc.nextDouble(); } while (nota2 < 1.0 || nota2 > 7.0);
 			promedio = ( nota1 + nota2 ) / 2;
-			
 			if ( promedio >= 5.0 ) {
 				System.out.println("Aprobado con nota: " + promedio);
 			} else {
-				
 				do {
-					System.out.println("recuperstiva: (a)pto / (n)o apto"); recuperativa = Character.toUpperCase(sc.next().charAt(0));			
-				} while (recuperativa != 'A' && recuperativa != 'N');
+					System.out.println("recuperstiva: (a)pto / (n)o apto"); recuperativa = sc.next().charAt(0);					
+				} while ( Character.toUpperCase(recuperativa) != 'a' && Character.toUpperCase(recuperativa) != 'n');
 			}
-			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
