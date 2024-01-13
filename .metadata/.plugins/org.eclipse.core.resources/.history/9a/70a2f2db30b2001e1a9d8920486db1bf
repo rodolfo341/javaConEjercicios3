@@ -35,36 +35,3 @@ public class ej27 {
 	}
 
 }
-/**
- * Ejemplo 1:
- * 		Elija un sabor (manzana, fresa o chocolate): chocolate
- * 		¿Qué tipo de chocolate quiere? (negro o blanco): negro
- * 		¿Quiere nata? (si o no): si
- * 		¿Quiere ponerle un nombre? (si o no): no
- * 			Tarta de chocolate negro: 14,00 €
- * 			Con nata: 2,50 €
- * 			Total: 16,50 €
- *
- * Ejemplo 2:
- * 		Elija un sabor (manzana, fresa o chocolate): manzana
- * 		¿Quiere nata? (si o no): no
- * 		¿Quiere ponerle un nombre? (si o no): si
- * 			Tarta de manzana: 18,00 €
- * 			Con nombre: 2,75 €
- * 			Total: 20,75
- *
- * Ejemplo 3:
- * 		Elija un sabor (manzana, fresa o chocolate): fresa
- * 		¿Quiere nata? (si o no): si
- * 		¿Quiere ponerle un nombre? (si o no): si
- * 			Tarta de fresa: 16,00 €
- * 			Con nata: 2,50 €
- * 			Con nombre: 2,75 €
- * 			Total: 21,25 €
- * */
-
-
-
-
-
-
