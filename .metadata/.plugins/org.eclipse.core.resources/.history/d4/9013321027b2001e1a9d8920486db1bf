@@ -1,7 +1,6 @@
 package S04;
 
 import java.util.Scanner;
-
 /**
  *
  * Capítulo 4. Sentencia condicional.
@@ -28,9 +27,7 @@ import java.util.Scanner;
  * 			.- Casado ( 20% )
  *
  * @author Rodolfo Aravena
- * 
  */
-
 public class ej24 {
 
 	public static void main(String[] args) {
@@ -64,7 +61,6 @@ public class ej24 {
 	}
 
 }
-
 /**
  * Introduzca el cargo del empleado (1 - 3): 
  * 		1) Programador junior
