@@ -17,10 +17,7 @@ public class ej22 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int dia;
-		int minutosDia = 24 * 60;
-		System.out.println("minutosDia" + minutosDia);
-		
+						
 		do {
 			
 			
