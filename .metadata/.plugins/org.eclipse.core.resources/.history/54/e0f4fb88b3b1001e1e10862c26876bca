@@ -19,13 +19,7 @@ public class ej22 {
 		char res;
 		int dia;
 		int minutosDia = 24 * 60;
-		int minutosViernes =15 * 60;
-		int minutosHastaFinDeSemana = minutosDia + minutosViernes;		
-		
-		System.out.println("minutosDia = " + minutosDia);
-		System.out.println("minutosViernes = " + minutosViernes);
-		System.out.println("minutosHastaElFinDeSemana = " + minutosHastaFinDeSemana);
-		
+		System.out.println("minutosDia" + minutosDia);
 		
 		do {
 			
