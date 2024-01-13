@@ -2,14 +2,13 @@ package S04;
 
 import java.util.Scanner;
 /**
+ * Aprende Java con Ejercicios (https://leanpub.com/aprendejava)
  *
  * Capítulo 4. Sentencia condicional.
  *
- * Escribe un programa que calcule el precio final de un producto 
- * según:
- * 		 	.- su base imponible (precio antes de impuestos), 
- * 			.- el tipo de IVA aplicado (general, reducido o superreducido) y 
- * 			.- el código promocional. Los tipos de IVA general,
+ * 23. Escribe un programa que calcule el precio final de un producto según su
+ * base imponible (precio antes de impuestos), el tipo de IVA aplicado (general,
+ * reducido o superreducido) y el código promocional. Los tipos de IVA general,
  * reducido y superreducido son del 21%, 10% y 4% respectivamente. Los códigos
  * promocionales pueden ser nopro, mitad, meno5 o 5porc que significan
  * respectivamente que no se aplica promoción, el precio se reduce a la mitad,
