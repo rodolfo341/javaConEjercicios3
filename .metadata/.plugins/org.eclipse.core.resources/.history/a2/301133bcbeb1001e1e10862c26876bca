@@ -39,27 +39,11 @@ public class ej23 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int baseImponible;
-		int IVA;
-		int codigoPromocional;
 						
 		do {
 			System.out.println("Introduzca la base imponible:");
-			baseImponible = sc.nextInt();
-			do {
-				System.out.println("Introduzca el tipo de IVA:");
-				System.out.println("1) General");
-				System.out.println("2) Reducido");
-				System.out.println("3) Superreducido");
-			 	IVA = sc.nextInt();				
-			} while ( IVA < 1 || IVA > 3 );
-			
-			System.out.println("Introduzca el código promocional:");
-			System.out.println("1) nopro");
-			System.out.println("2) mitad");
-			System.out.println("3) meno5");
-			System.out.println("4) 5porc");
-			
+			System.out.println("Introduzca el tipo de IVA (general, reducido o superreducido):");
+			System.out.println("Introduzca el código promocional (nopro, mitad, meno5 o 5porc):");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
