@@ -52,6 +52,10 @@ public class ej24 {
 			System.out.println("\t2) Soltero");
 			estadoCivil = sc.nextInt();
 			
+			
+			
+			
+			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
