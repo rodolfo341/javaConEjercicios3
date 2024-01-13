@@ -20,19 +20,17 @@ public class ej22 {
 		int dia;
 		int minutosDia = 24 * 60;
 		int minutosViernes =15 * 60;
-		int minutosTotales = minutosDia * 4 + minutosViernes;
+		int minutosHastaFinDeSemana = minutosDia + minutosViernes;
 		int cuantosMinutosVan;
 		int diaDeLaSemana;
 		int hora;
-		int minutosHastaElFinDeSemana;
 		
 		System.out.println("minutosDia = " + minutosDia);
 		System.out.println("minutosViernes = " + minutosViernes);
-		System.out.println("minutosTotales = " + minutosTotales);
+		System.out.println("minutosHastaElFinDeSemana = " + minutosHastaFinDeSemana);
 		
 		do {
 			cuantosMinutosVan = 0;
-			dia = 1;
 			System.out.println("ingrese dia de la semana");
 			System.out.println("1) Lunes");
 			System.out.println("2) Martes");
@@ -49,19 +47,12 @@ public class ej22 {
 			else if ( diaDeLaSemana == 4 ) cuantosMinutosVan = minutosDia * 3;
 			else if ( diaDeLaSemana == 5 ) cuantosMinutosVan = minutosDia * 4;
 			
-			if ( dia == 5 ) {
-				do {
-					System.out.println("ingrese hora del dia: "); hora = sc.nextInt(); 
-				} while( hora < 1 || hora > 15 );
-			} else {
-				do {
-					System.out.println("ingrese hora del dia: "); hora = sc.nextInt();						
-				} while( hora < 1 || hora > 24 );				
-			}
-			cuantosMinutosVan = cuantosMinutosVan + hora * 60;
-			System.out.println("cuantosMinutosVan: " + cuantosMinutosVan);
-			minutosHastaElFinDeSemana = minutosTotales - cuantosMinutosVan;
-			System.out.println("minutosHastaElFinDeSemana: " + minutosHastaElFinDeSemana);
+			do {
+				System.out.println("ingrese hora del dia: "); hora = sc.nextInt();						
+			} while( hora < 1 || hora > 24 );
+			
+			
+			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();

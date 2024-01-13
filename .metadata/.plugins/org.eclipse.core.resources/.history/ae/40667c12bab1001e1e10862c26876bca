@@ -51,15 +51,14 @@ public class ej22 {
 			
 			if ( dia == 5 ) {
 				do {
-					System.out.println("ingrese hora del dia: "); hora = sc.nextInt(); 
+					System.out.println("ingrese hora del dia: "); hora = sc.nextInt();						
 				} while( hora < 1 || hora > 15 );
 			} else {
 				do {
 					System.out.println("ingrese hora del dia: "); hora = sc.nextInt();						
 				} while( hora < 1 || hora > 24 );				
 			}
-			cuantosMinutosVan = cuantosMinutosVan + hora * 60;
-			System.out.println("cuantosMinutosVan: " + cuantosMinutosVan);
+			cuantosMinutosVan += hora;			
 			minutosHastaElFinDeSemana = minutosTotales - cuantosMinutosVan;
 			System.out.println("minutosHastaElFinDeSemana: " + minutosHastaElFinDeSemana);
 			
