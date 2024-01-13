@@ -39,11 +39,9 @@ public class ej23 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		double baseImponible;
-		int eleccionIVA;
-		int eleccionCodigoPromocional;
-		double IVA;
-		double codigoPromocional;
+		int baseImponible;
+		int IVA;
+		int codigoPromocional;
 						
 		do {
 			System.out.println("Introduzca la base imponible:");
@@ -53,26 +51,15 @@ public class ej23 {
 				System.out.println("1) General");
 				System.out.println("2) Reducido");
 				System.out.println("3) Superreducido");
-			 	eleccionIVA = sc.nextInt();		
-			} while ( eleccionIVA < 1 || eleccionIVA > 3 );
-			if ( eleccionIVA == 1 ) IVA = 21;
-		 	else if ( eleccionIVA == 2 ) IVA = 10;
-		 	else IVA = 4;
-			do {
-				System.out.println("Introduzca el código promocional:");
-				System.out.println("1) nopro");
-				System.out.println("2) mitad");
-				System.out.println("3) meno5");
-				System.out.println("4) 5porc");				
-				eleccionCodigoPromocional = sc.nextInt();
-			} while ( eleccionCodigoPromocional < 1 || eleccionCodigoPromocional > 4 );
-			if ( eleccionCodigoPromocional == 1 ) codigoPromocional = 0;
-			else if ( eleccionCodigoPromocional == 2 ) codigoPromocional = 0;
-			else if ( eleccionCodigoPromocional == 3 ) codigoPromocional = 0;
-			else codigoPromocional = 0;
+			 	IVA = sc.nextInt();				
+			} while ( IVA < 1 || IVA > 3 );
 			
+			System.out.println("Introduzca el código promocional:");
+			System.out.println("1) nopro");
+			System.out.println("2) mitad");
+			System.out.println("3) meno5");
+			System.out.println("4) 5porc");
 			
-			     
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
