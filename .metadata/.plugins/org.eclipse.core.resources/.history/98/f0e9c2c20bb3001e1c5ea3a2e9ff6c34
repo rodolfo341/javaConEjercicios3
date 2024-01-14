@@ -16,7 +16,6 @@ import java.util.Scanner;
  * El IVA ya está incluido en todas las tarifas.
  *
  * @author Rodolfo Aravena
- * 
  */
 
 public class ej25 {

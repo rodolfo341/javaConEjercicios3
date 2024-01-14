@@ -13,9 +13,6 @@ import java.util.Scanner;
  * Si un jueves, un grupo de 6 personas compran entradas, el precio total sería de 33 euros 
  * ya que son 3 parejas; pero si es un grupo de 7, pagarán 3 entradas de pareja más
  * 1 individual que son 41 euros (33 + 8).
- * 
- * @author Rodolfo Aravena
- * 
  */
 public class ej26 {
 

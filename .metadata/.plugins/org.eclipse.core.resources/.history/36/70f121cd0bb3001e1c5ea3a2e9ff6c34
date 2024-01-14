@@ -8,8 +8,6 @@ import java.util.Scanner;
  * Si alguno de los usuarios introduce una opción incorrecta, 
  * el programa deberá mostrar un mensaje de error.
  * 
- * @author Rodolfo Aravena
- * 
  */
 
 public class ej28 {

@@ -13,9 +13,6 @@ import java.util.Scanner;
  * la bebida: 
  * 			.- zumo ( 1’50 )
  * 			.- café ( 1’20 )
- * 
- * @author Rodolfo Aravena
- * 
  */
 public class ej29 {
 

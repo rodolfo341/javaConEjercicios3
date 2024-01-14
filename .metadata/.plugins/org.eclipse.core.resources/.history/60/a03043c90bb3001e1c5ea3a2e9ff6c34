@@ -16,9 +16,6 @@ import java.util.Scanner;
  * si se personaliza con un nombre; 
  * 		.- la nata suma 2.50 y 
  * 		.- el nombre 2.75.
- * 
- * @author Rodolfo Aravena
- * 
  */
 public class ej27 {
 
