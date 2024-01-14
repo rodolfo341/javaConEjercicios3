@@ -25,10 +25,6 @@ public class ej25 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		double alto;
-		double ancho;
-		double escudo;
-		final double envio = 2.25;
 						
 		do {			
 			

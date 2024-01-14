@@ -1,10 +1,9 @@
 package S04;
 
 import java.util.Scanner;
-
 /**
  *
- * La tienda online BanderaDeEspaña.es
+ * La tienda online BanderaDeEspaña.es 
  * vende banderas personalizadas de la máxima calidad y 
  * nos ha pedido hacer un configurador que calcule el precio según: 
  * 		.- el alto y 
@@ -25,10 +24,6 @@ public class ej25 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		double alto;
-		double ancho;
-		double escudo;
-		final double envio = 2.25;
 						
 		do {			
 			
