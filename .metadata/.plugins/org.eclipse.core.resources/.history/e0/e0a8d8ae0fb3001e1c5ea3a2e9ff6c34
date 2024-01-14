@@ -68,7 +68,7 @@ public class ej24 {
 			do { estadoCivil = sc.nextInt(); } while( estadoCivil < 1 || estadoCivil > 2);
 			
 			if ( estadoCivil == 1 ) retencion = sueldoBruto * 0.25;
-			else if ( estadoCivil == 2 ) retencion = sueldoBruto * 0.20;
+			else if ( estadoCivil == 2 ) retencion = sueldoBruto * 0.80;
 			
 			sueldo = sueldoBruto - retencion;
 						

@@ -39,11 +39,7 @@ public class ej24 {
 		int cargo;
 		int dias;
 		int estadoCivil;
-		double sueldoBase;
-		double sueldoBruto;
-		double retencion = 0;
-		double viatico;
-		double sueldo;
+		int sueldo;
 						
 		do {
 			System.out.println("Introduzca el cargo del empleado (1 - 3):");
@@ -52,35 +48,23 @@ public class ej24 {
 			System.out.println("\t3) Jefe de proyecto");
 			do { cargo = sc.nextInt(); } while( cargo < 1 || cargo > 3 );
 			
-			if ( cargo == 1 ) sueldoBase = 950;
-			else if ( cargo == 2 ) sueldoBase = 1200;
-			else sueldoBase = 1600;
-			
-			
 			System.out.println("¿Cuántos días ha estado de viaje visitando clientes?");
 			dias = sc.nextInt();
-			viatico = dias * 30;
-			sueldoBruto = sueldoBase + viatico;
 			
 			System.out.println("Introduzca su estado civil: ");
 			System.out.println("\t1) Casado");
 			System.out.println("\t2) Soltero");
 			do { estadoCivil = sc.nextInt(); } while( estadoCivil < 1 || estadoCivil > 2);
 			
-			if ( estadoCivil == 1 ) retencion = sueldoBruto * 0.25;
-			else if ( estadoCivil == 2 ) retencion = sueldoBruto * 0.20;
+			if ( cargo ==1 ) sueldo = 950;
+			else if ( cargo == 2 ) sueldo = 1200;
+			else sueldo = 1600;
 			
-			sueldo = sueldoBruto - retencion;
+			sueldo += dias*30;
+			
+			if ( estadoCivil == 1 ) sueldo *= 0.75;
+			else if ( estadoCivil == 2 ) sueldo *= 0.80;
 						
-			System.out.println("Sueldo base " + sueldoBase); 
-			System.out.println("Dietas ( " + dias + " viajes) " + viatico); 
-			 
-			System.out.println("Sueldo bruto " + sueldoBruto);
-			if ( estadoCivil == 1 )	System.out.println("Retención IRPF (25%) " + retencion);
-			else if ( estadoCivil == 2 )	System.out.println("Retención IRPF (20%) " + retencion);
-			 
-			System.out.println("Sueldo neto " + sueldo); 
-			 
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
