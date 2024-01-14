@@ -27,14 +27,10 @@ public class ej25 {
 		char res;
 		double alto;
 		double ancho;
-		double centimetrosCuadrados;
 		double escudo;
 		final double envio = 2.25;
 						
 		do {			
-			System.out.println("alto: "); alto = sc.nextDouble();
-			System.out.println("alto: "); ancho = sc.nextDouble();
-			centimetrosCuadrados = alto * ancho;
 			
 			
 			
