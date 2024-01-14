@@ -1,7 +1,6 @@
 package S04;
 
 import java.util.Scanner;
-
 /**
  * Implementa el juego piedra, papel y tijera. 
  * Primero, el usuario 1 introduce su jugada y luego el usuario 2. 
@@ -9,7 +8,6 @@ import java.util.Scanner;
  * el programa deberá mostrar un mensaje de error.
  * 
  */
-
 public class ej28 {
 
 	public static void main(String[] args) {
@@ -29,7 +27,6 @@ public class ej28 {
 	}
 
 }
-
 /**
  * Ejemplo 1:
  * Turno del jugador 1 (introduzca piedra, papel o tijera): papel
@@ -46,3 +43,4 @@ public class ej28 {
  * Turno del jugador 2 (introduzca piedra, papel o tijera): tijera
  * 		Gana el jugador  
  */
+
