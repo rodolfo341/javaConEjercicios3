@@ -1,7 +1,6 @@
 package S04;
 
 import java.util.Scanner;
-
 /**
  * Realiza un programa que calcule el precio de un desayuno. 
  * El programa preguntará primero 
@@ -18,7 +17,6 @@ import java.util.Scanner;
  * @author Rodolfo Aravena
  * 
  */
-
 public class ej29 {
 
 	public static void main(String[] args) {
@@ -38,22 +36,3 @@ public class ej29 {
 	}
 
 }
-
-/**
- * 
- * Ejemplo 1:
- * 			¿Qué ha tomado de comer? (palmera, donut o pitufo): palmera
- * 			¿Qué ha tomado de beber? (zumo o café): café
- * 			Palmera: 1,40 €
- * 			Café: 1,20 €
- * 			Total desayuno: 2,60 €
- * 
- * Ejemplo 2:
- * 			¿Qué ha tomado de comer? (palmera, donut o pitufo): pitufo
- * 			¿Con qué se ha tomado el pitufo? (aceite o tortilla): tortilla
- * 			¿Qué ha tomado de beber? (zumo o café): zumo
- * 			Pitufo con tortilla: 1,60 €
- * 			Zumo: 1,50 €
- * 			Total desayuno: 3,10 €
- * 
- */
