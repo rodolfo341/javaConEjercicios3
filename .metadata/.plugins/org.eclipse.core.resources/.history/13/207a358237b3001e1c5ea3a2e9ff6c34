@@ -42,7 +42,7 @@ public class ej25 {
 			System.out.println("precio = " + precio);
 			
 			do {
-				System.out.println("escudo (S) i / (N)o: "); escudo = Character.toUpperCase(sc.next().charAt(0));;				
+				System.out.println("escudo (S) i / (N)o: "); escudo = sc.next().charAt(0);				
 			} while ( Character.toUpperCase(escudo) != 'S' && Character.toUpperCase(escudo) != 'N');
 			
 			if ( escudo == 'S')	precio += 2.5;

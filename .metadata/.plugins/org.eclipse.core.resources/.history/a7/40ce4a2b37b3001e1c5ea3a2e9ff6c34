@@ -12,9 +12,8 @@ import java.util.Scanner;
  * El precio base de una bandera es: 
  * 		.- Un céntimo de euro el centímetro cuadrado. 
  * Si la queremos con un escudo bordado, 
- * 		.- ( 2.50 € )  
- * Los gastos de envío son 
- * 		.- ( 3.25 €. ) 
+ * el precio se incrementa en 2.50 € independientemente del tamaño. 
+ * Los gastos de envío son 3.25 €. 
  * El IVA ya está incluido en todas las tarifas.
  *
  * @author Rodolfo Aravena
@@ -29,25 +28,15 @@ public class ej25 {
 		double alto;
 		double ancho;
 		double centimetrosCuadrados;
-		double precio;
-		char escudo;
+		double escudo;
 		final double envio = 2.25;
 						
 		do {			
 			System.out.println("alto: "); alto = sc.nextDouble();
 			System.out.println("alto: "); ancho = sc.nextDouble();
 			centimetrosCuadrados = alto * ancho;
-			precio = centimetrosCuadrados /100;
 			
-			System.out.println("precio = " + precio);
 			
-			do {
-				System.out.println("escudo (S) i / (N)o: "); escudo = Character.toUpperCase(sc.next().charAt(0));;				
-			} while ( Character.toUpperCase(escudo) != 'S' && Character.toUpperCase(escudo) != 'N');
-			
-			if ( escudo == 'S')	precio += 2.5;
-			System.out.println("escudo = " + escudo);
-			System.out.println("precio = " + precio);
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);

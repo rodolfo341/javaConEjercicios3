@@ -39,15 +39,12 @@ public class ej25 {
 			centimetrosCuadrados = alto * ancho;
 			precio = centimetrosCuadrados /100;
 			
-			System.out.println("precio = " + precio);
-			
 			do {
-				System.out.println("escudo (S) i / (N)o: "); escudo = Character.toUpperCase(sc.next().charAt(0));;				
+				System.out.println("escudo (S) i / (N)o: "); escudo = sc.next().charAt(0);				
 			} while ( Character.toUpperCase(escudo) != 'S' && Character.toUpperCase(escudo) != 'N');
 			
 			if ( escudo == 'S')	precio += 2.5;
 			System.out.println("escudo = " + escudo);
-			System.out.println("precio = " + precio);
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
