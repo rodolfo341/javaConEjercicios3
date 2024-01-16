@@ -22,15 +22,14 @@ public class ej26 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int numEntradas;
-		int dia;
-		char tarjetaCineCampa;
 						
 		do {			
-			System.out.println("Venta de entradas CineCampa"); numEntradas = sc.nextInt();
-			System.out.println("Número de entradas: 4");
-			System.out.println("Día de la semana: martes");
-			System.out.println("¿Tiene tarjeta CineCampa? (s/n):");
+			
+			
+			
+			
+			
+			
 			
 			
 			
