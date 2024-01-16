@@ -50,7 +50,7 @@ public class ej25 {
 			System.out.println("escudo = " + escudo);
 			System.out.println("precio = " + precio);
 			
-			System.out.println("envio: €" + envio);
+			
 			
 			System.out.println("Gracias. Aquí tiene el desglose de su compra.");
 			System.out.println("Bandera de 700 cm2: 7,00 €");
