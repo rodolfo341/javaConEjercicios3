@@ -54,7 +54,7 @@ public class ej25 {
 				System.out.println("Sin escudo: 0,00 €");
 			}
 			System.out.println("Gastos de envío: 3,25 €");
-			System.out.println("Total: " + (precioCC + 3.25)  + "€");
+			System.out.println("Total: " + (precioCC + 2.25)  + "€");
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);

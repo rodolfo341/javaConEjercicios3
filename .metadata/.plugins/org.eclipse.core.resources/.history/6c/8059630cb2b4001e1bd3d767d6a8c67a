@@ -29,8 +29,7 @@ public class ej25 {
 		double alto;
 		double ancho;
 		double centimetrosCuadrados;
-		double precioCC;
-		double precioMasEscudo;
+		double precio;
 		char escudo;
 		final double envio = 3.25;
 						
@@ -38,23 +37,26 @@ public class ej25 {
 			System.out.println("alto: "); alto = sc.nextDouble();
 			System.out.println("alto: "); ancho = sc.nextDouble();
 			centimetrosCuadrados = alto * ancho;
-			precioCC = centimetrosCuadrados /100;
+			precio = centimetrosCuadrados /100;
+			
+			System.out.println("precio = " + precio);
 			
 			do {
 				System.out.println("escudo (S) i / (N)o: "); escudo = Character.toUpperCase(sc.next().charAt(0));;				
 			} while ( Character.toUpperCase(escudo) != 'S' && Character.toUpperCase(escudo) != 'N');
-						
-			System.out.println("Gracias. Aquí tiene el desglose de su compra.");
-			System.out.println("Bandera de " + centimetrosCuadrados  + "cm2: " + precioCC  + "€");
 			
-			if ( escudo == 'S')	{
-				precioCC += 2.5;
-				System.out.println("Con escudo: 2.50 €");
-			} else {
-				System.out.println("Sin escudo: 0,00 €");
-			}
+			
+			if ( escudo == 'S')	precio += 2.5;
+			System.out.println("escudo = " + escudo);
+			System.out.println("precio = " + precio);
+			
+			System.out.println("envio: €" + envio);
+			
+			System.out.println("Gracias. Aquí tiene el desglose de su compra.");
+			System.out.println("Bandera de " + 700  + "cm2: 7,00 €");
+			System.out.println("Sin escudo: 0,00 €");
 			System.out.println("Gastos de envío: 3,25 €");
-			System.out.println("Total: " + (precioCC + 3.25)  + "€");
+			System.out.println("Total: 10,25 €");
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
