@@ -6,14 +6,7 @@ import java.util.Scanner;
  * en función del: 
  * 			.- número de personas y 
  * 			.- del día de la semana. 
- * El precioes:
- * 			.- Lunes 8 euros
- * 			.- martes 8 euros
- * 			.- miercoles 5 euros
- *  		.- jueves 8 euros 1 y 11 euros 2
- *  		.- viernes 8 euros
- *  		.- sabado 8 euros
- *  		.- domingo 8 euros
+ * El precio base de una entrada son 8 euros. 
  * El miércoles (día del espectador), el precio base es de 5 euros. 
  * Los jueves son el día de la pareja, por lo que la entrada para dos cuesta 11 euros.
  * Con la tarjeta CineCampa se obtiene un 10% de descuento. 
@@ -32,41 +25,17 @@ public class ej26 {
 		int numEntradas;
 		int dia;
 		char tarjetaCineCampa;
-		int precioUnidad;
 						
 		do {			
 			System.out.println("Venta de entradas CineCampa");
 			System.out.println("Número de entradas: "); numEntradas = sc.nextInt();
-			
-			System.out.println("imprime numEntradas " + numEntradas);
-			
 			do {
 				System.out.println("Día de la semana (1..7): "); dia = sc.nextInt();				
 			} while ( dia < 1 || dia > 7);
-			
-			System.out.println("imprime dia " + dia);
-			
 			do {
-				System.out.println("tarjeta CineCampa s/n: "); tarjetaCineCampa = Character.toUpperCase(sc.next().charAt(0));;				
+				System.out.println("tarjeta CineCampa (S)i / (N)o: "); tarjetaCineCampa = Character.toUpperCase(sc.next().charAt(0));;				
 			} while ( Character.toUpperCase(tarjetaCineCampa) != 'S' && Character.toUpperCase(tarjetaCineCampa) != 'N');
-			
-			System.out.println("imprime cineCampa s/n " + tarjetaCineCampa);
-			 /* 		.- Lunes 8 euros
-			 * 			.- martes 8 euros
-			 * 			.- miercoles 5 euros
-			 *  		.- jueves 8 euros 1 y 11 euros 2
-			 *  		.- viernes 8 euros
-			 *  		.- sabado 8 euros
-			 *  		.- domingo 8 euros
-			 *  */
-			if ( dia == 1 || dia == 2 || dia == 5 || dia == 6 || dia == 7 ) {
-				precioUnidad = 8;
-			} else if ( dia == 3 ) {
-				precioUnidad = 5;
-				
-			}
-			
-			
+						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
