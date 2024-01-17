@@ -33,39 +33,38 @@ public class ej26 {
 		int dia;
 		char tarjetaCineCampa;
 		int precioUnidad;
-		int total;
 						
 		do {			
 			System.out.println("Venta de entradas CineCampa");
 			System.out.println("Número de entradas: "); numEntradas = sc.nextInt();
 			
+			System.out.println("imprime numEntradas " + numEntradas);
+			
 			do {
 				System.out.println("Día de la semana (1..7): "); dia = sc.nextInt();				
 			} while ( dia < 1 || dia > 7);
+			
+			System.out.println("imprime dia " + dia);
 			
 			do {
 				System.out.println("tarjeta CineCampa s/n: "); tarjetaCineCampa = Character.toUpperCase(sc.next().charAt(0));;				
 			} while ( Character.toUpperCase(tarjetaCineCampa) != 'S' && Character.toUpperCase(tarjetaCineCampa) != 'N');
 			
+			System.out.println("imprime cineCampa s/n " + tarjetaCineCampa);
+			 /* 		.- Lunes 8 euros
+			 * 			.- martes 8 euros
+			 * 			.- miercoles 5 euros
+			 *  		.- jueves 8 euros 1 y 11 euros 2
+			 *  		.- viernes 8 euros
+			 *  		.- sabado 8 euros
+			 *  		.- domingo 8 euros
+			 *  */
 			if ( dia == 1 || dia == 2 || dia == 5 || dia == 6 || dia == 7 ) {
 				precioUnidad = 8;
-				total = numEntradas * precioUnidad;
 			} else if ( dia == 3 ) {
 				precioUnidad = 5;
-				total = numEntradas * precioUnidad;
-			} else if ( numEntradas % 2 == 0 ) {
-				precioUnidad = 11;
-				total = numEntradas / 2 * precioUnidad;
+				
 			}
-			
-			System.out.println("Aquí tiene sus entradas. Gracias por su compra.");
-			System.out.println("Entradas individuales 4");
-			System.out.println("Precio por entrada individual 8.00 €");
-			System.out.println("Total 32.00 €");
-			System.out.println("Descuento 3.20 €");
-			System.out.println("A pagar 28.80 €");
-			
-			
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
