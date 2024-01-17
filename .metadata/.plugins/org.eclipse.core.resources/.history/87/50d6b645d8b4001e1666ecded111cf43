@@ -35,7 +35,11 @@ public class ej26 {
 			do {
 				System.out.println("tarjeta CineCampa (S)i / (N)o: "); tarjetaCineCampa = Character.toUpperCase(sc.next().charAt(0));;				
 			} while ( Character.toUpperCase(tarjetaCineCampa) != 'S' && Character.toUpperCase(tarjetaCineCampa) != 'N');
-						
+			
+			System.out.println("¿Tiene tarjeta CineCampa? (s/n):");
+			
+			
+			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
