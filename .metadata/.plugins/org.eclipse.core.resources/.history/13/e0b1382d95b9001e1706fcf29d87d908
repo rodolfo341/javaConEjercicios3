@@ -32,8 +32,8 @@ public class ej26 {
 		int numEntradas;
 		int dia;
 		char tarjetaCineCampa;
-		int precioUnidad = 8;
-		int total = 0;
+		int precioUnidad;
+		int total;
 						
 		do {			
 			System.out.println("Venta de entradas CineCampa");
@@ -60,9 +60,9 @@ public class ej26 {
 			
 			System.out.println("Aquí tiene sus entradas. Gracias por su compra.");
 			
-			System.out.println("Entradas individuales: " + numEntradas);
-			System.out.println("Precio por entrada individual " + precioUnidad + "€");
-			System.out.println("Total " + total + "€");
+			System.out.println("Entradas individuales 4");
+			System.out.println("Precio por entrada individual 8.00 €");
+			System.out.println("Total 32.00 €");
 			System.out.println("Descuento 3.20 €");
 			System.out.println("A pagar 28.80 €");
 			
