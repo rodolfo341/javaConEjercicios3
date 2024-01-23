@@ -33,13 +33,13 @@ public class ej27 {
 			System.out.println("1) manzana");
 			System.out.println("2) fresa");
 			System.out.println("3) chocolate");
-			do { sabor = sc.nextInt(); } while ( sabor < 1 || sabor > 3 );
+			do { tipoChocolate = sc.nextInt(); } while ( tipoChocolate < 1 || tipoChocolate > 2 );
 			
 			
 			System.out.println("¿Qué tipo de chocolate quiere?");
 			System.out.println("1) negro");
 			System.out.println("2) blanco");
-			do { tipoChocolate = sc.nextInt(); } while ( tipoChocolate < 1 || tipoChocolate > 3 );
+			do { sabor = sc.nextInt(); } while ( sabor < 1 || sabor > 3 );
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
