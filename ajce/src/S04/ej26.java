@@ -59,6 +59,7 @@ public class ej26 {
 			}
 			
 			System.out.println("Aquí tiene sus entradas. Gracias por su compra.");
+			
 			System.out.println("Entradas individuales 4");
 			System.out.println("Precio por entrada individual 8.00 €");
 			System.out.println("Total 32.00 €");
