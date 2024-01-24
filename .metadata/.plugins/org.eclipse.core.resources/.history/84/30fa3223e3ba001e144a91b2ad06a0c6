@@ -1,13 +1,9 @@
-package S09;
+package S08;
 
 import java.util.Scanner;
-/**
-* 
-*
-* @author Rodolfo Aravena
-*/
-public class ej01 {
 
+public class ej01 {
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
@@ -22,5 +18,5 @@ public class ej01 {
 		sc.close();
 
 	}
-
+	
 }

@@ -1,11 +1,7 @@
-package S09;
+package S10;
 
 import java.util.Scanner;
-/**
-* 
-*
-* @author Rodolfo Aravena
-*/
+
 public class ej01 {
 
 	public static void main(String[] args) {
@@ -20,7 +16,6 @@ public class ej01 {
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
-
 	}
 
 }
