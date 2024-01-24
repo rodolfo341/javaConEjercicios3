@@ -1,10 +1,12 @@
-package S09;
+package S07;
 
 import java.util.Scanner;
 /**
 * 
-* ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas
-* instancias de esta clase
+* Define un array de números enteros de 3 filas por 6 columnas con nombre num
+* y asigna los valores según la siguiente tabla. Muestra el contenido de todos
+* los elementos del array dispuestos en forma de tabla como se muestra en la
+* figura.
 *
 * @author Rodolfo Aravena
 */
@@ -14,8 +16,7 @@ public class ej01 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 									
-		do {
-			
+		do {			
 				
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
