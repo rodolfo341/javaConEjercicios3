@@ -1,9 +1,9 @@
-package S08;
+package S07;
 
 import java.util.Scanner;
 /**
 * 
-** Crea una biblioteca de funciones matemáticas que contenga las siguientes
+* Crea una biblioteca de funciones matemáticas que contenga las siguientes
 * funciones. Recuerda que puedes usar unas dentro de otras si es necesario.
 * Observa bien lo que hace cada función ya que, si las implementas en el orden
 * adecuado, te puedes ahorrar mucho trabajo. Por ejemplo, la función esCapicua
@@ -30,11 +30,11 @@ import java.util.Scanner;
 * 13. trozoDeNumero: Toma como parámetros las posiciones inicial y final
 * dentro de un número y devuelve el trozo correspondiente.
 * 14. juntaNumeros: Pega dos números para formar uno.
-* 
+*
 * @author Rodolfo Aravena
 */
 public class ej01 {
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
@@ -49,5 +49,5 @@ public class ej01 {
 		sc.close();
 
 	}
-	
+
 }

@@ -1,12 +1,10 @@
-package S07;
+package S06;
 
 import java.util.Scanner;
 /**
 * 
-* Define un array de números enteros de 3 filas por 6 columnas con nombre num
-* y asigna los valores según la siguiente tabla. Muestra el contenido de todos
-* los elementos del array dispuestos en forma de tabla como se muestra en la
-* figura.
+* Escribe un programa que muestre la tirada de tres dados. 
+* Se debe mostrar también la suma total (los puntos que suman entre los tres dados)
 *
 * @author Rodolfo Aravena
 */
@@ -24,7 +22,6 @@ public class ej01 {
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
-
 	}
 
 }

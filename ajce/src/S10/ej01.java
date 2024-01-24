@@ -3,6 +3,9 @@ package S10;
 import java.util.Scanner;
 /**
 * 
+* Crea un ArrayList con los nombres de 6 compañeros de clase. A continuación,
+* muestra esos nombres por pantalla. Utiliza para ello un bucle for que recorra
+* todo el ArrayList sin usar ningún índice
 *
 * @author Rodolfo Aravena
 */

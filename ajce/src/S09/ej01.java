@@ -3,6 +3,8 @@ package S09;
 import java.util.Scanner;
 /**
 * 
+* ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas
+* instancias de esta clase
 *
 * @author Rodolfo Aravena
 */
