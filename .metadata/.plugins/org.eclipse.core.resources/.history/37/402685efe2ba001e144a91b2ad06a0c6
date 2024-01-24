@@ -1,9 +1,8 @@
-package S10;
+package S08;
 
 import java.util.Scanner;
 
 public class ej01 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
@@ -16,6 +15,6 @@ public class ej01 {
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
-	}
 
+	}
 }
