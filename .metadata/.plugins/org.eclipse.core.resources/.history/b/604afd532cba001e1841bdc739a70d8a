@@ -56,6 +56,8 @@ public class ej27 {
 			
 			
 			
+			
+			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
