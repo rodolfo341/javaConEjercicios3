@@ -13,10 +13,11 @@ public class ej01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
+		int num = 5;
 									
 		do {			
 			for (int i = 1 ; i <= 100; i++) {
-				System.out.println( 5 + " * " + i + " = " + (5 * i ) );		
+				System.out.println( num + " * " + i + (num * i ) );				
 			}
 				
 			

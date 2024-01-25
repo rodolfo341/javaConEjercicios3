@@ -15,9 +15,6 @@ public class ej01 {
 		char res;
 									
 		do {			
-			for (int i = 1 ; i <= 100; i++) {
-				System.out.println( 5 + " * " + i + " = " + (5 * i ) );		
-			}
 				
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
