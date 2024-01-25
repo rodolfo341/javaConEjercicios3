@@ -32,7 +32,6 @@ import java.util.Scanner;
 * 14. juntaNumeros: Pega dos números para formar uno.
 * 
 * @author Rodolfo Aravena
-* 
 */
 public class ej01 {
 	
