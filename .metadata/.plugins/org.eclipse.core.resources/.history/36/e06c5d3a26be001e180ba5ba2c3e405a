@@ -28,10 +28,6 @@ public class ej01 {
 			arreglo[8] = 5;
 			arreglo[9] = 120;
 			
-			for (int i : arreglo) {
-				System.out.println(i);
-			}
-			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');

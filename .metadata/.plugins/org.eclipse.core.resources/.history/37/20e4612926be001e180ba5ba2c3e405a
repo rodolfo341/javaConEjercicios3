@@ -18,7 +18,7 @@ public class ej01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int arreglo[] = new int[12];
+		int arreglo[];
 									
 		do {			
 			arreglo[0] = 39;
@@ -27,10 +27,6 @@ public class ej01 {
 			arreglo[6] = 14;
 			arreglo[8] = 5;
 			arreglo[9] = 120;
-			
-			for (int i : arreglo) {
-				System.out.println(i);
-			}
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 			sc.nextLine();
