@@ -9,7 +9,6 @@ import java.util.Scanner;
 * adecuado, te puedes ahorrar mucho trabajo. Por ejemplo, la función esCapicua
 * resulta trivial teniendo voltea y la función siguientePrimo también es muy fácil de
 * implementar teniendo esPrimo.
-* 
 * 1. esCapicua: 
 * 		Devuelve verdadero si el número que se pasa como parámetro es capicúa y 
 * 		falso en caso contrario.
@@ -43,9 +42,6 @@ public class ej01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		boolean salir = false;
-		int opcion;
-		
 									
 		do {			
 				
