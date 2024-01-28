@@ -54,7 +54,7 @@ public class ej01 {
 	            
 			System.out.println("Escribe una de las opciones");
 			opcion = sc.nextInt();
-	   }
+	  }
 		
 		sc.close();
 
