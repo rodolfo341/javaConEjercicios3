@@ -46,15 +46,13 @@ public class ej01 {
 		boolean salir = false;
 		int opcion;
 		
-		while(!salir){            
-			System.out.println("1. Opcion 1");
-			System.out.println("2. Opcion 2");
-			System.out.println("3. Opcion 3");
-			System.out.println("4. Salir");
-	            
-			System.out.println("Escribe una de las opciones");
-			opcion = sc.nextInt();
-	  }
+									
+		do {			
+				
+			
+			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
+			sc.nextLine();
+		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
 
