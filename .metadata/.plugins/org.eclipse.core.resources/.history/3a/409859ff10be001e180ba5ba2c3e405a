@@ -16,7 +16,6 @@ public class ej01 {
 		int dado1 = 0;
 		int dado2 = 0;
 		int dado3 = 0;
-		
 									
 		do {			
 			
