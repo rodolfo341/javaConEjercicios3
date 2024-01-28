@@ -63,7 +63,6 @@ public class ej01 {
 		        	if (esCapicua(numero)) System.out.println("Es Capicua");
 		        	else System.out.println("No es capicua");
 		        	break;
-		        	
 		        case  2: System.out.println("  2) "); break;
 		        case  3: System.out.println("  3) "); break;
 		        case  4: System.out.println("  4) "); break;
