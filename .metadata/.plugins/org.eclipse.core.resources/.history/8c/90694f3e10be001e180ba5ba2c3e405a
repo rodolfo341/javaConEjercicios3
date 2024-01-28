@@ -18,8 +18,9 @@ public class ej01 {
 		int dado3 = 0;
 									
 		do {			
-			
-				
+			dado1 = Math.floor(Math.random() * 6) + 1;
+
+			System.out.println("dado 1 " + );	
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
