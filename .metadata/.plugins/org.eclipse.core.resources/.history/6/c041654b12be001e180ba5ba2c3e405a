@@ -15,22 +15,15 @@ public class ej01 {
 		Scanner sc = new Scanner(System.in);
 		Random random = new Random();		// instanciar random
 		char res;
-		int dado1;
-		int dado2;
-		int dado3;
-		int suma;		
+		int dado1 = 0;
+		int dado2 = 0;
+		int dado3 = 0;
+		
 									
 		do {			
 			dado1 = random.nextInt(6) + 1;
             dado2 = random.nextInt(6) + 1;
-            dado3 = random.nextInt(6) + 1;
-            suma = dado1 + dado2 + dado3;
-            
-            
-            System.out.println("Dado 1: " + dado1);
-            System.out.println("Dado 2: " + dado2);
-            System.out.println("Dado 3: " + dado3);
-            System.out.println("Suma: " + suma);
+            dado3 = random.nextInt(6) + 1;			
 			
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);

@@ -10,12 +10,6 @@ import java.util.Scanner;
 * Muestra el contenido de todos los elementos del array dispuestos 
 * en forma de tabla como se muestra en la figura.
 * 
-* * num:
-* 		Col 0 	Col 1 	Col 2 	Col 3 	Col 4 	Col 5
-* Fil 0 	0 	   30 		2 	_____	____		5
-* Fil 1    75 	____	____	_____		0   ____
-* Fil 2 ____	____	   -2       9 	____	   11
-* 
 * 
 * 1. Define un array de 12 números enteros con nombre num y asigna los valores
 * según la tabla que se muestra a continuación. Muestra el contenido de todos
