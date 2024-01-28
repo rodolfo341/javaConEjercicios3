@@ -13,7 +13,7 @@ public class ej01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Random random = new Random();		// instanciar random
+		Random random = new Random();
 		char res;
 		int dado1 = 0;
 		int dado2 = 0;
